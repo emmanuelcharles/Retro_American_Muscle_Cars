@@ -1,0 +1,139 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: lightcyan;
+    }
+    header
+    {
+        margin: 0;
+        padding: 0;
+        width: auto;
+        height: 100vh;
+        background-image: url(../Images/pexels-smepictures-24181694.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-sizing: border-box;
+        background-position: center;
+    }
+    header h1{
+        position: relative;
+        color: white;
+        font-size: 90px;
+        top: 65%;
+        font-family: sans-serif;
+        font-style: italic;
+        text-align: right;
+        padding: 0 40px;
+        background-color: transparent;
+    }
+    .box
+    {
+        display: flex;
+        align-content:space-between;
+        align-items: center;
+        height: 90vh;
+        padding: 0px 55px;
+        
+    }
+    .box-img
+    {
+        margin: 0;
+        padding: 0;
+        border: 2px solid none;
+        border-radius: 30px 0px;
+        background-size: cover;
+        height: 380px;
+        width: 600px;
+        box-shadow: 8px 8px 3px darkgrey;
+        background-color: black;
+    }
+    .box-00
+    {
+        height: 55vh;
+        line-height: 23px;
+        font-size: 10px;
+        color: lightseagreen;
+        font-family: sans-serif;
+        font-style: italic;
+    }
+
+
+    .bimg-01
+    {
+        background-image: url(../Images/Ford\ Mustang\ \(1964–1973\).jpg);   
+    }
+    .bimg-02
+    {
+        background-image: url(../Images/Chevrolet_Camaro_\(1967-1973\).jpg);   
+    }
+    .bimg-03
+    {
+        background-image: url(../Images/Dodge\ Charger\ \(1966–1978\).jpg);   
+    }
+    .bimg-04
+    {
+        background-image: url(../Images/1970_Plymouth_Cuda_first_Generator.jpg);   
+    }
+    .bimg-05
+    {
+        background-image: url(../Images/Pontiac_GTO_\(1964\).jpg);   
+    }
+    .bimg-06
+    {
+        background-image: url(../Images/1964_Chevrolet_Chevelle.jpg);   
+    }
+    .bimg-07
+    {
+        background-image: url(../Images/1970_Dodge_Challenger.jpg);   
+    }
+    .box-note
+    {
+        width: 55%;
+        font-size: 12px;
+        color: lightseagreen;
+        text-align: left;
+        font-family: sans-serif;
+        font-style: italic;
+        align-content: center;
+        align-items: center;
+        line-height: 28px;
+    }
+    .box-note:nth-child(even){
+        margin: 0 0 0 75px;
+    }
+    .box-note:nth-child(odd)
+    {
+        margin: 0 10px 0 0;   
+    }
+    #title
+    {
+        font-size: 19px;
+        color: darkcyan;
+    }
+    .box-note h2{
+        font-size: xx-large;
+        text-align: center;
+        font-style:normal;
+        color: darkcyan;
+    }
+    footer
+    {
+        display: flex;
+        height: 30vh;
+        background-color: darkcyan;
+        align-items: center;
+        padding: 0 5%;
+        flex-direction: row-reverse;
+    }
+    footer img
+    {
+        background-color: transparent;
+        height: 175px;
+    }
+    footer h3{
+        background-color: transparent;
+        color: white;
+        font-family: sans-serif;
+        font-style: italic;
+    }
